@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+table{width:100%; border-collapse:collapse;border:none;border-spacing:0}
+body{font: 12px/1.5 Microsoft YaHei,SimSun, Arial, Helvetica, sans-serif;color:#333;background-color: #fff;}
+ul li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a{text-decoration:none;color:#333}
+.clearfix{overflow:hidden;zoom:1}/*直接写在需要请浮动的div上的*/
+.clear{clear:both}
+.clearf:after{content:".";display:block;height:0;clear:both;visibility:hidden;font-size: 0px;}
+.fl{float:left}
+.fr{float:right}
+/*强制一行并加省略号*/
+.overhidden{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.alc{text-align: center}
+.no_click{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.graybg{background-color: #f4f4f6;}
+.curno{cursor: not-allowed}
+
+/*颜色公共*/
+.colblue{color:#09f;}
+.colpur{color:#6586FE;}
+.colccc{color:#CCC;}
+.colred{color:#F86F6F;}
+.col999{color:#999;}
+.col333{color:#333;}
+.colblue:hover{opacity: 0.8;}
+
+
+/*常用表单对齐*/
+.disinblock{display: inline-block}
+.vermidd{vertical-align: middle}
+.vertop{vertical-align: top}
+.fontweib{font-weight: bold}
